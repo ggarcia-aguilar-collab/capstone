@@ -49,6 +49,62 @@ h1{
   background: pink;
 }
 
+h1{
+  color: #d0a933
+  
+}
+
+
+
+.button-menu{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:#333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5pc;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+
+  
+}
+.botton-menu: hover{
+  background-color: #555;
+}
+
+
+.menu-page:{
+  background: #f5e6c8;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;  
+}
+ h1{
+   font-size: 50px;
+   text-align: center;
+   font-family: "Times New Roman", Times, serif;
+ }
+ h2{
+   color: #d0a933;
+   text-align: center;
+   font-size: 30px;
+ }
+.cards{
+  background: white;
+  width: 200px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card{
+  background: pink;
+  width: 200px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
 
 
 
