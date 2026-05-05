@@ -1,20 +1,8 @@
-.banner {
-  width: 100%;
-  height: 300px;
-  background-image: url(imgb.jpeg);
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content:center;
+body{
+  background-color: #efcfe3;
 }
 
 
-
-h1{
-  
-  color:#d0a933
-}
-  
 .button-menu{
   display: inline-block;
   padding: 10px 20px;
@@ -30,7 +18,8 @@ h1{
   background-color: #555;
 }
  h1{
-   font-size: 70px;
+   color:#d0a933; 
+   font-size: 50px;
    text-align: center;
    font-family: "Times New Roman", Times, serif;
  }
@@ -88,8 +77,13 @@ body{
   background-color: #efcfe3;
 }
 
-
-  
+.containeri {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;  
+  text-align: center;
+  background: url(img.jpeg) right bottom no-repeat, url(paper.gif)left top repeat; 
+  padding: 25px;
+}
 
 
 
