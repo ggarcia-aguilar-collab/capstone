@@ -1,12 +1,10 @@
 .body0{
-  font-family:'Poppins', sans-box;
-  background: #fffafc;
-  color: #333;
+  background: white;
 }
 .hero{
   position: relative;
   height: 100vh;
-  background-color: #eac8d6;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/013/456/315/non_2x/minimalist-pink-background-with-flowers-leaves-with-gold-blotches-spring-summer-vector.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +31,7 @@
 .subtitle{
   font-size: 1.3rem;
   margin-top: 10px;
-  color: white;
+  color: #d0a933;
 }
 .phrase{
   margin: 30px 0 40px;
@@ -98,7 +96,7 @@
   color: #c27ba0;
 }
 .social{
-  background:  #fde8f1;
+  background:#fde8f1;
 }
 .social p{
   margin-bottom: 25px;
@@ -135,10 +133,7 @@ footer{
   padding: 20px;
   font-size: 0.9rem;
 }
-@media (max-width: 768px){
-  .hero h1{
-  font-size: 2.8rem;
-}
+
 .subtitle{
   font-size: 1.1rem;
 }
@@ -149,19 +144,58 @@ footer{
   padding: 60px 6%;
 }
 .container{
-  width: 110%;
-  min-height: 35px;
-  background-color: #efcfe3;
+  width: 160%;
+  max-width: 1300px;
+  margin: 40px auto;
+  background: #edcee8;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
   display: flex;
-  justify-content: space-around;;
   align-items: right;
-  border-top: 2px solid #d4a373;
-  padding: 0px 0;
-  box-sizing: border-box;
+  justify-content: space-between;
 }
 .body1{
-  background-color: pink;
+  background-color: #fce4ec;
 }
+
+.cs1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  color: #880e4f;
+  text-align: center;
+  padding: 0px;
+}
+.inf{
+  width: 85%;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+.pcs{
+  font-family: 'Playfair Display', serif;
+  color: #ad1457;
+  font-size: 30ox;
+  margin-bottom: 20px;
+}
+
+.puis{
+  line-height: 1.9;
+  font-size: 17px;
+  color: #555;
+  text-align: justify;
+}
+.pui{
+  line-height: 1.9;
+  font-size: 17px;
+  color: #555;
+  text-align: justify;
+  
+}
+
 
 .body2{
   background-color: #efcfe3;
@@ -180,12 +214,12 @@ footer{
 .parrafo3{
   padding:  25px 35px 24px;
   font: italic small-caps bold 15px/30px Georgia, serif;
-  background-color: #a85334
+  background-color: #a85334;
 }
 .parrafo4{
   padding: 10px 10px 15px;
   background-color: #47081c;
-  font-family:  fantasy;
+  font-family: fantasy;
 }
 .parrafo5{
   padding: 35px 25px 35px;
@@ -194,8 +228,74 @@ footer{
 }
 
 
- 
- 
+
+
+.body3{
+  background-image: url('https://image.slidesdocs.com/responsive-images/background/pink-flower-minimalist-watercolor-flowers-nature-powerpoint-background_d9efefe514__960_540.jpg');
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.abt{
+  text-align: center;
+  padding: 60px 20px;
+  font-family: "Segoe UI", sans-serif;
+  color:#d0a933;
+  font-size: 35px;
+  padding: 0;
+}
+
+.mee{
+  width: 85%;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: #efcfe3;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+.parrabt{
+   line-height: 1.9;
+  font-size: 17px;
+  color: #2e2e2e;
+  text-align: justify;
+}
+.qsm{
+  font-size: 15px;
+  text-align: center;
+  color:#d0a933;
+}
+.body4{
+  background-color: #efcfe3;
+}
+
+.pac1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  color: #880e4f;
+  text-align: center;
+  padding: 0px;
+}
+.parrafopc{
+  width: 85%;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+.linksia{
+  text-align: center;
+}
+.parraia{
+  line-height: 1.9;
+  font-size: 17px;
+  color: #434242;
+  text-align: justify;
+}
   
  
 
